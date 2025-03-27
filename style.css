@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#vault-data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vault-address {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.trade-history {
+    margin-bottom: 20px;
+}
+
+.tvl {
+    font-style: italic;
+}
+
+.vault {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.trade-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trade-history-table th,
+.trade-history-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.trade-history-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
