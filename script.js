@@ -13,6 +13,7 @@ async function fetchData() {
         const vaultDiv = document.createElement('div');
         vaultDiv.classList.add('vault');
         vaultDiv.style.width = "80%";
+        vaultDiv.style.width = "80%";
 
         const vaultNameDiv = document.createElement('h2');
         vaultNameDiv.textContent = vault.name;
